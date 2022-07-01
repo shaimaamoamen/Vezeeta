@@ -1,0 +1,12 @@
+
+.img1{
+    height: 400px;
+    
+}
+
+.div1{  
+    width: 1000px;
+    z-index: 0;
+    margin: auto;
+    position: relative;
+}
