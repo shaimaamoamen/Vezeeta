@@ -1,0 +1,79 @@
+.search{
+    
+    width: 40%;
+    float: left;
+
+   position: relative;
+}
+.searchinputs{
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 7px;
+
+    
+}
+.search input{
+    
+    border: 0px;
+    font-size: 20px;
+    color: black;
+  padding-left: 25px;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+.datares{
+  
+    background-color:#D3D3D3;
+    border:1px solid gray;
+    margin-top:13px;
+    margin-left: 80px;
+    position:absolute;
+    
+ 
+}
+
+.datares .datait{
+    border:1px solid gray;
+    width: 140px;
+    padding: 10px 15px ;
+    cursor: pointer;
+    display:block;
+    color:#222;
+    text-decoration:none;
+    font-weight:bold;  
+  
+}
+.datait:hover{
+color: white;
+background-color: black;
+}
+
+#clearbtn{
+    cursor: pointer;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+
+ 
+    
+}
+.img2{
+    width: 25px;
+    height: 25px;
+ 
+ 
+
+}
+.img3{
+    width: 20px;
+    height:20px;
+
+
+}

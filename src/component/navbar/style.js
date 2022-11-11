@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import styled from 'styled-components'
 export const NavbarSection=Styled.div`
-padding:5px 0;
+padding:5px 0px;
 // overflow:hidden;
 background:#D3D3D3;
 position:relative;
@@ -13,7 +13,7 @@ z-index:1;
 margin-bottom:100px;
 `
 export const Logo=Styled.div`
-width:50%;
+width:20%;
 float:left;
 @media(max-width:991px){
     width: 100%;
@@ -35,10 +35,10 @@ font-family: Wide Latin;
 `
 
 export const UlList=Styled.ul`
-width:50%;
+width:40%;
 float:left;
 list-style:none;
-padding:0;
+padding:0px;
 @media(max-width:991px){
     width: 100%;
     float:  none;
@@ -55,7 +55,7 @@ display:inline-block;
 `
 export const Same=styled.div`
 
-transform:translate(800px,-50px);
+// transform:translate(800px,-50px);
 cursor: pointer;
 display:block;
 color:#222;
@@ -114,6 +114,9 @@ font-weight:bold;
     color:white;
     
 }
+`
+export const Con=Styled.div`
+margin-right:70px;
 `
 
 

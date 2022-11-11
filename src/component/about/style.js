@@ -28,6 +28,22 @@ padding: 100px 0px 100px 60px;
 export const AboutInfo=Styled.div`
 width: 50%;
 float: left;
+animation-name: text;
+animation-duration: 5s;
+animation-delay: 0s;
+animation-timing-function: cubic-bazier(0,0,.9,.9);
+animation-iteration-count:infinite;
+animation-direction: normal;
+@keyframes text{
+    from{
+        transform:translatex(0px)
+        
+    }
+    to{
+        transform:translatex(100px) 
+    }
+}
+
 @media (max-width:768px) {
     width: 100%;
     float: none;
@@ -66,4 +82,5 @@ animation-direction: normal;
         
     }
 }
+
 `

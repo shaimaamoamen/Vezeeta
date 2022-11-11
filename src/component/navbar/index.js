@@ -1,6 +1,9 @@
 import React,{useState} from "react";
 import{Link} from "react-router-dom"
-import { NavbarSection,Logo,LogoText,UlList,ListItem,Same,Page,SamePage,Image,Icon,Div,Li,Pa } from "./style.js";
+import { NavbarSection,Logo,LogoText,UlList,ListItem,Same,Page,SamePage,Image,Icon,Div,Li,Pa,Con } from "./style.js";
+import Searchbar from "./../searchbar";
+import Bookdata from "./../../data.json"
+
 const Navbar=()=>{
   const[state,setstate]=useState(false);
   const Show=()=>{
@@ -11,13 +14,16 @@ const Navbar=()=>{
   }
   return(
     <NavbarSection>
-      <div className="container">
+      <Con className="container">
       <Logo>
       <Icon src="images/1.png"  width="50px" height="50px"/> 
        <LogoText>Vezeeta</LogoText>
 
-        </Logo>  
-        <UlList>
+        </Logo> 
+        
+        <Searchbar placeholder="Enter the specialty..." data={Bookdata}/>   
+ <div >
+        <UlList >
         <ListItem>
                    <Page to="/">Home</Page>
          </ListItem>
@@ -27,12 +33,11 @@ const Navbar=()=>{
            <ListItem>
                        <SamePage to="/contact">Contact</SamePage>
              </ListItem>
-             </UlList>
-           
-      <Same onClick={Show} onDoubleClick={Hide}>
+             <ListItem >
+             <Same   onClick={Show} onMouseLeave={Hide}>
         Reservation <Image src="images/2.png" />
         
-        <div >
+        
         {state ?(<UlList onClick={Show}>
           <Div  >
           <Li>
@@ -49,9 +54,14 @@ const Navbar=()=>{
           </Li>
           </Div>
         </UlList>):null}
-          </div>
-          </Same>           
-      </div>
+        
+          </Same>
+          </ListItem>
+             </UlList>
+             </div>
+           </Con>
+                
+    
       </NavbarSection>
     
   )

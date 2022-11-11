@@ -42,3 +42,10 @@ margin-bottom: 8px;
 export const SpanTitle=Styled.span`
 font-weight: normal;
 `
+export const Div=Styled.div`
+background-color:#3b5998;
+height:25px;
+padding-top:15px;
+padding-left:120px;
+color: #fff;
+`

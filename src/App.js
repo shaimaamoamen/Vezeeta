@@ -13,6 +13,7 @@ class App extends Component{
     return(
       <BrowserRouter>
       <div className="App">
+        
         <Navbar/>
         <Routes>
           <Route exact path="/"  element={<Index/>}/>

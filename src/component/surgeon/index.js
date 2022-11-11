@@ -1,10 +1,13 @@
 import React,{Component} from "react";
-import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title} from './style.js'
+import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './style.js'
 class Surgeon extends Component{
     render(){
         return(
             <CallSection>
                 <Title>Surgeon</Title>
+                <Div>
+                    <h4>Reservation: from 6pm to 8pm</h4>
+                    </Div>
             <CallData item="1">
                 
             <Icon src="images/9.png" />
