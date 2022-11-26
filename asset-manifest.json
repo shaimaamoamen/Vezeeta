@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vezeeta/static/css/main.e5dd3a7d.css",
+    "main.js": "/Vezeeta/static/js/main.9dfa4d14.js",
+    "static/js/787.0e31295a.chunk.js": "/Vezeeta/static/js/787.0e31295a.chunk.js",
+    "index.html": "/Vezeeta/index.html",
+    "main.e5dd3a7d.css.map": "/Vezeeta/static/css/main.e5dd3a7d.css.map",
+    "main.9dfa4d14.js.map": "/Vezeeta/static/js/main.9dfa4d14.js.map",
+    "787.0e31295a.chunk.js.map": "/Vezeeta/static/js/787.0e31295a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5dd3a7d.css",
+    "static/js/main.9dfa4d14.js"
+  ]
+}
