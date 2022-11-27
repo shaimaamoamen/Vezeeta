@@ -3,7 +3,8 @@ import{Link} from "react-router-dom"
 import { NavbarSection,Logo,LogoText,UlList,ListItem,Same,Page,SamePage,Image,Icon,Div,Li,Pa,Con } from "./style.js";
 import Searchbar from "./../searchbar";
 import Bookdata from "./../../data.json"
-
+import Picture1 from "./../../1.png"
+import Picture2 from "./../../2.png"
 const Navbar=()=>{
   const[state,setstate]=useState(false);
   const Show=()=>{
@@ -16,7 +17,7 @@ const Navbar=()=>{
     <NavbarSection>
       <Con className="container">
       <Logo>
-      <Icon src="images/1.png"  width="50px" height="50px"/> 
+      <Icon src={Picture1}  width="50px" height="50px"/> 
        <LogoText>Vezeeta</LogoText>
 
         </Logo> 
@@ -35,7 +36,7 @@ const Navbar=()=>{
              </ListItem>
              <ListItem >
              <Same   onClick={Show} onMouseLeave={Hide}>
-        Reservation <Image src="images/2.png" />
+        Reservation <Image src={Picture2} />
         
         
         {state ?(<UlList onClick={Show}>

@@ -1,4 +1,5 @@
 import Styled from 'styled-components'
+import Picture7 from "./../../7.png"
 export const AboutSection=Styled.div`
 height: 600px;
 overflow: hidden; 
@@ -62,7 +63,7 @@ margin-bottom: 20px;
 `
 export const Image=Styled.div`
 background-size:contain;
-background-image: url(images/7.png);
+background-image:url(${Picture7});
 background-repeat: no-repeat;
 animation-name: project;
 animation-duration: 5s;

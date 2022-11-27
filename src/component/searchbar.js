@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import "./searchbar.css"
+import Picture16 from "./../10.png"
+import Picture17 from "./../11.png"
 function Searchbar({placeholder,data}){
     const [filtereddata,setfiltereddata]=useState([])
     const [wordentered,setwordentered]=useState("")
@@ -24,9 +26,9 @@ function Searchbar({placeholder,data}){
         <div className="search" >
             <div className="searchinputs"  >
               <input type="text" placeholder={placeholder} value={wordentered} onChange={handlefilter}/>
-              {filtereddata.length===0?<img  className="img2" src="images/10.png" /> :
+              {filtereddata.length===0?<img  className="img2" src={Picture16} /> :
               <button id="clearbtn" onClick={clearinput}>
-                <img className="img3" src="images/11.png"/>
+                <img className="img3" src={Picture17}/>
               </button>
               }
             </div>

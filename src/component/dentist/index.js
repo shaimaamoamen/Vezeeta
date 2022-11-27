@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title, Div} from './style.js'
+import Picture8 from "./../../8.png"
+import Picture9 from "./../../9.png"
 class Dentist extends Component{
     render(){
         return(
@@ -9,14 +11,14 @@ class Dentist extends Component{
                     <h4>Reservation: from 6pm to 8pm</h4>
                     </Div>
             <CallData item="1">  
-            <Icon src="images/9.png" />
+            <Icon src={Picture9}/>
             <CallDesc>
                 <SpanInfo>Dr.Alshaimaa Abd El Moamen</SpanInfo>
                 <SpanTitle>01156629797</SpanTitle>
             </CallDesc>
            </CallData>
            <CallData item="2">
-            <Icon src="images/8.png" />
+            <Icon src={Picture8} />
             <CallDesc>
                 <SpanInfo>shaimaamoamen86@gmail.com</SpanInfo>
                 <SpanTitle>Gmail</SpanTitle>
