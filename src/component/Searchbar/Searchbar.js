@@ -1,7 +1,7 @@
 import React,{useState} from "react";
-import "./searchbar.css"
-import Picture16 from "./../10.png"
-import Picture17 from "./../11.png"
+import "./Searchbar.css"
+import Picture16 from "./../../Images/10.png"
+import Picture17 from "./../../Images/11.png"
 function Searchbar({placeholder,data}){
     const [filtereddata,setfiltereddata]=useState([])
     const [wordentered,setwordentered]=useState("")

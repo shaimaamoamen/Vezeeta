@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import{ContactSection,Form,FormInput,InputText,InputEmail,InputExp,TextArea,InputSubmit}from './style.js'
+import{ContactSection,Form,FormInput,InputText,InputEmail,InputExp,TextArea,InputSubmit}from './Style.js'
 const Contact=()=>{
     return(
         <React.Fragment>

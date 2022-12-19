@@ -1,8 +1,8 @@
 import React,{Component} from "react";
-import Home from "./../home"
-import About from "./../about"
-import Contact from "./../contact"
-import Footer from "./../footer"
+import Home from "./../Home/Index.js"
+import About from "./../About/Index.js"
+import Contact from "./../Contact/Index.js"
+import Footer from "./../Footer/Index.js"
 class Index extends Component{
     render(){
         return(

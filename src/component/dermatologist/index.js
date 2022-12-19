@@ -1,7 +1,7 @@
 import React,{Component} from "react";
-import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './style.js'
-import Picture12 from "./../../8.png"
-import Picture13 from "./../../9.png"
+import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './Style.js'
+import Picture12 from "./../../Images/8.png"
+import Picture13 from "./../../Images/9.png"
 class Dermatologist extends Component{
     render(){
         return(

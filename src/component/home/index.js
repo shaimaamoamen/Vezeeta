@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import './style.css'
-import Picture3 from "./../../3.jpg"
-import Picture4 from "./../../4.jpg"
-import Picture5 from "./../../5.jpg"
-import Picture6 from "./../../6.jpg"
+import './Style.css'
+import Picture3 from "./../../Images/3.jpg"
+import Picture4 from "./../../Images/4.jpg"
+import Picture5 from "./../../Images/5.jpg"
+import Picture6 from "./../../Images/6.jpg"
 export default function Home() {
   return (
    

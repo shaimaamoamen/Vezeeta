@@ -1,10 +1,10 @@
 import React,{useState} from "react";
 import{Link} from "react-router-dom"
-import { NavbarSection,Logo,LogoText,UlList,ListItem,Same,Page,SamePage,Image,Icon,Div,Li,Pa,Con } from "./style.js";
-import Searchbar from "./../searchbar";
-import Bookdata from "./../../data.json"
-import Picture1 from "./../../1.png"
-import Picture2 from "./../../2.png"
+import { NavbarSection,Logo,LogoText,UlList,ListItem,Same,Page,SamePage,Image,Icon,Div,Li,Pa,Con } from "./Style.js";
+import Searchbar from "./../Searchbar/Searchbar.js";
+import Bookdata from "./../../Data.json"
+import Picture1 from "./../../Images/1.png"
+import Picture2 from "./../../Images/2.png"
 const Navbar=()=>{
   const[state,setstate]=useState(false);
   const Show=()=>{

@@ -1,5 +1,5 @@
 import React from "react";
-import{FooterSection,FooterDesc}from './style.js'
+import{FooterSection,FooterDesc}from './Style.js'
 const Footer=()=>{
     return(
        <FooterSection>

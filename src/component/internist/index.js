@@ -1,7 +1,7 @@
 import React,{Component} from "react";
-import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './style.js'
-import Picture10 from "./../../8.png"
-import Picture11 from "./../../9.png"
+import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './Style.js'
+import Picture10 from "./../../Images/8.png"
+import Picture11 from "./../../Images/9.png"
 class Internist extends Component{
     render(){
         return(

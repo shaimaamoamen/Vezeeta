@@ -1,7 +1,7 @@
 import React,{Component} from "react";
-import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './style.js'
-import Picture14 from "./../../8.png"
-import Picture15 from "./../../9.png"
+import{CallSection,CallData,Icon,CallDesc,SpanInfo,SpanTitle,Title,Div} from './Style.js'
+import Picture14 from "./../../Images/8.png"
+import Picture15 from "./../../Images/9.png"
 class Surgeon extends Component{
     render(){
         return(

@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import{AboutSection,AboutData,AboutInfo,AboutTitle,AboutDesc,Image,Aboutdata} from './style.js'
+import{AboutSection,AboutData,AboutInfo,AboutTitle,AboutDesc,Image,Aboutdata} from './Style.js'
 class About extends Component{
     render(){
         return(

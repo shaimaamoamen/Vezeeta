@@ -1,5 +1,5 @@
 import Styled from 'styled-components'
-import Picture7 from "./../../7.png"
+import Picture7 from "./../../Images/7.png"
 export const AboutSection=Styled.div`
 height: 600px;
 overflow: hidden; 
