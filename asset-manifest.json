@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vezeeta/static/css/main.e5dd3a7d.css",
-    "main.js": "/Vezeeta/static/js/main.987b80a7.js",
+    "main.js": "/Vezeeta/static/js/main.298b4c8b.js",
     "static/js/787.0e31295a.chunk.js": "/Vezeeta/static/js/787.0e31295a.chunk.js",
     "static/media/1.png": "/Vezeeta/static/media/1.7a855fdea3534d32b89f.png",
     "static/media/8.png": "/Vezeeta/static/media/8.cb97e7f0ca5d739025b2.png",
@@ -9,11 +9,11 @@
     "static/media/7.png": "/Vezeeta/static/media/7.d613a303d71cf049a4d5.png",
     "index.html": "/Vezeeta/index.html",
     "main.e5dd3a7d.css.map": "/Vezeeta/static/css/main.e5dd3a7d.css.map",
-    "main.987b80a7.js.map": "/Vezeeta/static/js/main.987b80a7.js.map",
+    "main.298b4c8b.js.map": "/Vezeeta/static/js/main.298b4c8b.js.map",
     "787.0e31295a.chunk.js.map": "/Vezeeta/static/js/787.0e31295a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5dd3a7d.css",
-    "static/js/main.987b80a7.js"
+    "static/js/main.298b4c8b.js"
   ]
 }
